@@ -15,6 +15,7 @@
 		8984A1B62044A4D70024D35A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8984A1B52044A4D70024D35A /* main.m */; };
 		8984A1C02044A4D70024D35A /* MtScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8984A1BF2044A4D70024D35A /* MtScrollViewTests.m */; };
 		8984A1CB2044A4D70024D35A /* MtScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8984A1CA2044A4D70024D35A /* MtScrollViewUITests.m */; };
+		8984A1DA2044AC0C0024D35A /* MyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8984A1D92044AC0C0024D35A /* MyScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8984A1C62044A4D70024D35A /* MtScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MtScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8984A1CA2044A4D70024D35A /* MtScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MtScrollViewUITests.m; sourceTree = "<group>"; };
 		8984A1CC2044A4D70024D35A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8984A1D82044AC0C0024D35A /* MyScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScrollView.h; sourceTree = "<group>"; };
+		8984A1D92044AC0C0024D35A /* MyScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				8984A1B12044A4D70024D35A /* LaunchScreen.storyboard */,
 				8984A1B42044A4D70024D35A /* Info.plist */,
 				8984A1B52044A4D70024D35A /* main.m */,
+				8984A1D82044AC0C0024D35A /* MyScrollView.h */,
+				8984A1D92044AC0C0024D35A /* MyScrollView.m */,
 			);
 			path = MtScrollView;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8984A1AB2044A4D70024D35A /* ViewController.m in Sources */,
+				8984A1DA2044AC0C0024D35A /* MyScrollView.m in Sources */,
 				8984A1B62044A4D70024D35A /* main.m in Sources */,
 				8984A1A82044A4D70024D35A /* AppDelegate.m in Sources */,
 			);
